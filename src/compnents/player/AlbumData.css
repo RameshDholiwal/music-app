@@ -1,0 +1,23 @@
+.album-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 5px;
+}
+.album-container:hover{
+    transform: scale(.95);
+}
+.album-container img{
+    width: 50px;
+    height: 50px;
+    font-size: 12px;
+    border: 1px solid aliceblue;
+    margin-right: 5px;
+    border-radius: 15px;
+}
+.album-title{
+    font-size: 16px;
+}
+.album-sublist{
+    font-size: 11px;
+}

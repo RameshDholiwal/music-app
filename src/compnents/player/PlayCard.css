@@ -1,0 +1,65 @@
+.playcard-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 100%;
+}
+.playcard-left{
+    width: 40%;
+}
+.playcard-left .icon{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.playcard-left .icon .svg-circle{
+    margin: auto;
+    border: 4px solid #6c6c6c;
+    border-radius: 50%;
+}
+.playcard-left .icon img{
+    transition: all 1s ease-in-out;
+    transform: rotate(93deg);
+    transform-origin: 50% 50%;
+}
+.playcard-left .icon.active img{
+    animation: rotation 30s infinite linear;
+    transform-origin: 50% 50%;
+}
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+.playcard-right{
+    width: 60%;
+}
+.playcard-detail{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 20px;
+    width: 100%;
+}
+.playcard-title{
+    font-size: 30px;
+}
+.playcard-artist{
+    font-size: 13px;
+}
+.song-duration{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.playcard-icons .controls{
+
+}

@@ -1,0 +1,43 @@
+.queue-container{
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: blueviolet;
+    height: 100%;
+}
+
+.queue-title{
+    font-size: 24px;
+    padding: 10px;
+}
+
+.queue-list{
+    height: 80%;
+    overflow-y: auto;
+}
+.queue-list::-webkit-scrollbar{
+    width: 5px;
+    background-color: blue;
+}
+.queue-list::-webkit-scrollbar-button{
+    display: none;
+    width: 5px;
+    background-color: rgb(6, 6, 117);
+}
+.queue-list::-webkit-scrollbar-thumb{
+    background-color: aqua;
+}
+.queue-list .songlist {
+
+}
+.song-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    font-size: 12px;
+    transition: all 0.2s ease;
+}
+.song-item:hover{
+    transform: scale(.95);
+}

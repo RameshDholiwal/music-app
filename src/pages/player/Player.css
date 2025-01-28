@@ -1,0 +1,25 @@
+.player-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+}
+.player-playcard, .player-songlist{
+    width: 70%;
+}
+.player-playsong, .player-queuelist{
+    width: 30%;
+}
+.player-playcard, .player-songlist,
+.player-playsong, .player-queuelist{
+    height: 50%;
+}
+/* 
+.player-playsong{
+    height: 60%;
+}
+.player-queuelist{
+    height: 40%;
+} */
